@@ -10,6 +10,7 @@ to_node = sys.argv[2] # Stopping searching (The Last Node That we will search in
 host = '127.0.1.' # Host Number to the entier cluster
 word = sys.argv[3] # this is the word that we want to find 
 
+# Adding condition to check if nodes between 1 and 70
 if not(from_node > 0 and to_node <= 70):
 	print("Somthing wrong !! Please Enter node numbers correctly between 1 and 70 !!!")
 	sys.exit()
