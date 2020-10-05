@@ -20,3 +20,4 @@ for node in range(from_node,to_node):
 	os.system('ssh {}{} \"crontab -l | grep -i {}\" >> outPut.txt'.format(host,node,word))
 
 
+# This is from Master
