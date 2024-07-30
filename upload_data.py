@@ -16,3 +16,4 @@ for subdir,dirs,files in os.walk(images_path):
                         with open(subdir+'/'+file, 'rb') as opened:
                             r = requests.post(url, files={'file': opened})
 
+##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
